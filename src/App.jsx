@@ -1,4 +1,5 @@
 import "./App.css";
+import DarkModeToggle from "./components/DarkModeToggle";
 
 function App() {
   return (
@@ -27,7 +28,7 @@ function App() {
                 <div class="hidden md:block">
                   <div class="ml-10 flex items-baseline space-x-4">
                     <a
-                      class="text-gray-300  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                      class="text-gray-800  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                       href="/#"
                     >
                       About
@@ -39,17 +40,18 @@ function App() {
                       Experience
                     </a>
                     <a
-                      class="text-gray-300  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                      class="text-gray-800  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                       href="/#"
                     >
                       Work
                     </a>
                     <a
-                      class="text-gray-300  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                      class="text-gray-800  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                       href="/#"
                     >
                       Contact
                     </a>
+                    <DarkModeToggle />
                   </div>
                 </div>
               </div>

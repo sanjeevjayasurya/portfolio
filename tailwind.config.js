@@ -1,6 +1,6 @@
 module.exports = {
   purge: ['./index.html', './src/**/*.{js,jsx}'],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'class',
   theme: {
     fontFamily: {
       noto: ['Noto Sans Mono', 'monospace'],
