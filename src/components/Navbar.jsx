@@ -2,7 +2,7 @@ import DarkModeToggle from "./DarkModeToggle";
 
 export const Navbar = () => (
     <nav className="font-noto font-bold bg-white dark:bg-gray-800 fixed w-full items-center">
-          <div className="max-w-8xl px-6 md:px-8 mx-auto">
+          <div className="max-w-8xl px-6 md:px-8 lg:px-12 mx-auto">
             <div className="flex items-center justify-between h-24">
               <div className="w-full justify-between flex items-center">
                 <a className="flex-shrink-0" href="/">
