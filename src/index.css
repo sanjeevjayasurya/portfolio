@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+main {
+  scroll-snap-type: y proximity;
+  overflow-y: scroll;
+  max-height: 100vh;
+}
+
+section {
+  scroll-snap-align: start end;
+}
