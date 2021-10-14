@@ -8,6 +8,7 @@ function App() {
     <main className="font-sans bg-white w-full dark:bg-gray-800">
       <Navbar />
       <Hero />
+      <About />
     </main>
   );
 }
