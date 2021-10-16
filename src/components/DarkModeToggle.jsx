@@ -4,14 +4,14 @@ const DarkModeToggle = () => {
   const [isDark, setIsDark] = useDarkMode();
 
   return (
-    <label class="switch">
+    <label className="switch">
       <span>{isDark}</span>
       <input
         type="checkbox"
         checked={isDark}
         onChange={(e) => setIsDark(e.target.checked)}
       />{" "}
-      <span class="slider round"></span>
+      <span className="slider round"></span>
     </label>
   );
 };
