@@ -6,16 +6,15 @@ html {
   scroll-behavior: smooth;
 }
 
-main {
-  @media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
+  main {
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
     max-height: 100vh;
   }
-}
-
-section {
-  @media only screen and (min-width: 768px) {
-    scroll-snap-align: start end;
+  section {
+      scroll-snap-align: start end;
   }
 }
+
+
