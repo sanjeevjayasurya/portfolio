@@ -1,6 +1,7 @@
 import "./App.css";
 import { About } from "./components/About";
 import { Hero } from "./components/Hero";
+import { History } from "./components/History";
 import { Navbar } from "./components/Navbar";
 import { Skills } from "./components/Skills";
 
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <About />
       <Skills />
+      <History />
     </main>
   );
 }
