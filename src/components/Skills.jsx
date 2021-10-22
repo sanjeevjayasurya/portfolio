@@ -4,7 +4,7 @@ export const Skills = () => {
   return (
     <section className="min-h-screen w-full bg-white dark:bg-gray-800 px-6 md:px-24 xl:px-36 mx-auto">
       <div className="max-w-screen-lg mx-auto">
-        <div className="flex w-full justify-center h-screen flex-col ">
+        <div className="flex w-full justify-center h-screen flex-col">
           <div>
             <p className="mb-7 font-semibold font-sans text-3xl text-gray-800 dark:text-white">
               Skills
