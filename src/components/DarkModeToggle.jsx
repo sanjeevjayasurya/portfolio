@@ -6,7 +6,7 @@ const DarkModeToggle = () => {
     <div class="fixed bottom-12 right-12">
       <div className="flex w-32 justify-around">
         <svg
-        className="dark:fill-current text-white"
+          className="dark:fill-current text-white"
           width="32px"
           height="32px"
           xmlns="http://www.w3.org/2000/svg"
