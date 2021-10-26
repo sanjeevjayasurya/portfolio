@@ -3,12 +3,12 @@ import { useDarkMode } from "../hooks/useDarkMode";
 const DarkModeToggle = () => {
   const [isDark, setIsDark] = useDarkMode();
   return (
-    <div class="fixed top-1/2 right-0 rotate-90">
-      <div className="flex w-48 justify-around">
+    <div class="fixed bottom-12 right-12">
+      <div className="flex w-32 justify-around">
         <svg
         className="dark:fill-current text-white"
-          width="42px"
-          height="42px"
+          width="32px"
+          height="32px"
           xmlns="http://www.w3.org/2000/svg"
           x="0px"
           y="0px"
@@ -61,17 +61,17 @@ const DarkModeToggle = () => {
               checked={isDark}
               onChange={(e) => setIsDark(e.target.checked)}
             ></input>
-            <div className="block bg-gray-600 w-14 h-8 rounded-full"></div>
-            <div className="dot absolute left-1 top-1 bg-white w-6 h-6 rounded-full transition"></div>
+            <div className="block bg-gray-600 w-10 h-6 rounded-full"></div>
+            <div className="dot absolute left-1 top-1 bg-white w-4 h-4 rounded-full transition"></div>
           </div>
         </label>
 
         <svg
-          className="-rotate-90 dark:fill-current text-white"
+          className="dark:fill-current text-white"
           x="0px"
           y="0px"
-          width="42px"
-          height="42px"
+          width="32px"
+          height="32px"
           viewBox="0 0 45.74 45.74"
         >
           <g>
