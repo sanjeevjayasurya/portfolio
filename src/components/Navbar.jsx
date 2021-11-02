@@ -48,25 +48,25 @@ export const Navbar = () => {
           id="navbar-collapse"
         >
           <a
-            href="#"
+            href="#about"
             className="p-2 lg:px-4 md:mx-2 text-gray-700 dark:text-white hover:bg-gray-200 dark:hover:bg-white hover:text-gray-700 dark:hover:text-gray-700 rounded transition-colors duration-300"
           >
             About
           </a>
           <a
-            href="#"
+            href="#experience"
             className="p-2 lg:px-4 md:mx-2 text-gray-700 dark:text-white rounded hover:bg-gray-200 hover:text-gray-700 dark:hover:text-gray-700 transition-colors duration-300"
           >
             Experience
           </a>
           <a
-            href="#"
+            href="#work"
             className="p-2 lg:px-4 md:mx-2 text-gray-700 dark:text-white rounded hover:bg-gray-200 hover:text-gray-700 dark:hover:text-gray-700 transition-colors duration-300"
           >
             Work
           </a>
           <a
-            href="#"
+            href="#contact"
             className="p-2 lg:px-4 md:mx-2 text-gray-700 dark:text-white rounded hover:bg-gray-200 hover:text-gray-700 dark:hover:text-gray-700 transition-colors duration-300"
           >
             Contact

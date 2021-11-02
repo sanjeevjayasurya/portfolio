@@ -16,6 +16,6 @@ html {
     display: none;
   }
   section {
-    scroll-snap-align: start end;
+    scroll-snap-align: start;
   }
 }

@@ -2,7 +2,7 @@ import Profile from "../public/profile.jpeg";
 
 export const About = () => {
   return (
-    <section className="min-h-screen w-full bg-white dark:bg-gray-800 px-6 md:px-24 xl:px-36 mx-auto">
+    <section id="about" className="min-h-screen w-full bg-white dark:bg-gray-800 px-6 md:px-24 xl:px-36 mx-auto">
       <div className="max-w-screen-lg mx-auto">
         <div className="flex w-full justify-center h-screen flex-col ">
           <div className="flex flex-col md:flex-row w-full">
